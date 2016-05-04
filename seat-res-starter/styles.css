@@ -1,0 +1,239 @@
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: verdana;
+}
+
+
+header {
+  background-color: rgb(171, 183, 108);
+  position: fixed;
+  height: 140px;
+  width: 100%;
+  text-align: center;
+  margin: -10px 0px 0px 0px;
+  border-bottom: 2px solid #5c8840;
+}
+
+
+#logo {
+  position:relative;
+  background-color: #0F6753;
+  height: 80%;
+  width: 40%;
+  border: 5px solid #473A6C;
+  border-radius: 20%;
+  text-align: center;
+  margin: 20px auto;
+  z-index: 100;
+}
+#logo > img {
+  margin-top: 7px;
+  max-width: 90%;
+  height: 79%;
+}
+
+
+#small {
+  display:none;
+}
+
+.main {
+  margin: 150px 10% 0px 10%;
+}
+
+div{
+  border-radius: 10%;
+
+}
+
+.seat-chart {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 25px;
+  margin-bottom: 5%;
+
+ 
+
+}
+#stage {
+  width:40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 3%;
+  background-color: black;
+  color:white;
+  vertical-align: middle;
+  font-size: 300%;
+  padding: 2%;
+}
+
+#stage p {
+  text-align: center;
+}
+
+.seats {
+  text-align: center;
+/*  border: 1px solid black;*/
+}
+
+/*
+.chair {
+  background-color: green;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
+  display: inline-block;
+}*/
+
+.available {
+  background-color: green;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
+  display: inline-block;
+}
+
+
+.reserved {
+  background-color: #bcbcbc;
+  width: 15%;
+  margin: 3px 0px 3px 0px;
+  min-height: 125px;
+  display: inline-block;
+}
+
+#seatform{
+  display: inline-block;
+  width:19%;
+  margin:2% 35% ;
+}
+
+fieldset {
+  padding-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-top: 2px solid #d9d9d9;
+}
+
+legend {
+  border:none;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5%;
+  border: 2px solid #d9d9d9;
+}
+
+#footer {
+  background-color: rgb(171, 183, 108);
+  position:relative;
+  width:100%;
+  height:75px;
+  text-align: left;
+  display: inline-block;
+  padding: 2%;
+  margin-bottom: 0px;
+}
+
+
+.icons {
+  text-align: left;
+  z-index: 1;
+  margin-top: -28px;
+  margin-left: 80px;
+
+}
+
+
+@media(max-width:990px){
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 100px;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+  #stage{
+    font-size: 200%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 80px;
+  }
+}
+
+
+@media (max-width: 490px) {
+  #stage{
+    font-size: 150%;
+  }
+  .available {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
+
+  .reserved {
+    margin: 2px 0px 2px 0px;
+    min-height: 60px;
+  }
+  #big {
+    display:none;
+  }
+  #small {
+    display:inline;
+  }
+ 
+@media (max-width: 380px) {
+  #stage {
+    font-size: 100%;
+  }
+  .available {
+    margin: 1px 0px 1px 0px ;
+    min-height: 50px;
+  }
+
+  .reserved {
+    margin: 1px 0px 1px 0px;
+    min-height: 50px;
+  }
+
+}
+
+@media (max-width: 290px) {
+  .seat-chart {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+  }
+  .available {
+    margin: 1px 0px 1px 0px ;
+    min-height: 45px;
+  }
+  .reserved {
+    margin: 1px 0px 1px 0px;
+    min-height: 45px;
+  }
+
+}

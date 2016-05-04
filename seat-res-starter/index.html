@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Reservation App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="jQuery.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body class="container">
+  <header>
+      <div id="logo">
+        <img id="big" src="images/lily_pad.png"></img>
+        <img id="small" src="images/lily_pad_solo.png"></img>
+      </div>
+  </header>
+
+  <div class="main">
+      <p>Cupcake ipsum dolor sit amet. Donut topping croissant sesame snaps wafer marzipan cake sweet roll. Fruitcake caramels pudding jelly beans jelly apple pie. Bear claw candy brownie caramels halvah brownie powder. Fruitcake fruitcake sesame snaps candy canes bonbon donut chupa chups pastry. Gummi bears brownie topping tart gingerbread danish.</p>
+  </div>
+ 
+  <section class="seat-chart">
+    
+
+    <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
+
+   
+      <div id="stage"><p>STAGE</p></div>
+        <div class="seats">
+          <div class="available" id ="1" ><p>1</p></div>
+          <div class="available" id ="2"><p>2</p></div>
+          <div class="available" id ="3" ><p>3</p></div>
+          <div class="available" id ="4" ><p>4</p></div>
+          <div class="available" id ="5" ><p>5</p></div>
+          <div class="available" id ="6" ><p>6</p></div>    
+          <div class="available" id="7"><p>7</p></div>
+          <div class="available" id="8"><p>8</p></div>
+          <div class="available" id="9"><p>9</p></div>
+          <div class="available" id="10"><p>10</p></div>
+          <div class="available" id="11"><p>11</p></div>
+          <div class="available" id="12"><p>12</p></div>
+          <div class="available" id="13"><p>13</p></div>
+          <div class="available" id="14"><p>14</p></div>
+          <div class="available" id="15"><p>15</p></div>
+          <div class="available" id="16"><p>16</p></div>
+          <div class="available" id="17"><p>17</p></div>
+          <div class="available" id="18"><p>18</p></div>
+          <div class="available" id="19"><p>19</p></div>
+          <div class="available" id="20"><p>20</p></div>
+          <div class="available" id="21"><p>21</p></div>
+          <div class="available" id="22"><p>22</p></div>
+          <div class="available" id="23"><p>23</p></div>
+          <div class="available" id="24"><p>24</p></div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+
+    <form id="seatform">
+        <input id="name" type="text" name="name" placeholder="Name" required="required"/>
+        <input id="email" type="email" name="email" placeholder="E-mail" required="required"/>
+     
+        <input id="button" type="button" value="submit" name="submit">
+    </form>
+
+
+
+      <fieldset>
+        <form action="#" method="post">
+          <legend>Subscribe for our Newsletter!</legend>
+          <label>Name 
+          <input type="text" name="name" required="required"/></label>
+          <label>E-mail
+          <input type="email" name="email" required="required"/></label>
+          <input id="submit" type="submit" value="submit"/>
+        </form>
+      </fieldset> 
+
+  <section id="footer"> 
+    <p>Follow us!</p>
+      <div class="icons">
+        <img src="images/insta_icon.png"></img>
+        <img src="images/fb_icon.png"></img>
+        <img src="images/twitter_icon.png"></img>
+      </div>
+    
+  </section>  
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
